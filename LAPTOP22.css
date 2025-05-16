@@ -1,0 +1,232 @@
+/* General reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #a3189c;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.hero{
+            background-image: url('last.jfif');
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .lapt h2 {
+            color: white;
+            font-size: 80px
+        }
+
+        .lapt p {
+            color: white;
+            
+        }
+        .cta-button {
+            padding: 5px 30px;
+            background-color: #70116b;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 19px;
+            transition: background-color 0.3s ease;
+        }
+        .cta-button a{
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #fafafa;
+            color: #ac3388;
+        }
+
+/* Laptop Section */
+.laptop-selection {
+    padding: 40px 0;
+    
+}
+
+.laptop-selection h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.laptops {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.laptop-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 280px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.laptop-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.laptop-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.laptop-card p {
+    font-size: 1.2em;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+.laptop-card button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.laptop-card button:hover {
+    background-color: #0056b3;
+}
+
+.laptop-card:hover {
+    transform: translateY(-5px);
+}
+.services-section, .about-section, .contact-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.service-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+.contact-section{
+    background-image: url(downloaduu2.jfif);
+    background-size: cover;
+}
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact-section h2{
+    color: #f4f4f4;
+
+}
+.contact-section input, .contact-section textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.submit-button {
+    padding: 15px;
+    background-color: #d676c1;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0097a7;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
